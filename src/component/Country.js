@@ -14,8 +14,7 @@ const Country = () => {
       const countriesData = response.data;
       setCountries(countriesData);
     } catch (error) {
-      console.error('Error fetching data: ', error);
-      // setError(error);
+      console.error('Error fetching data: ');
     }
   };
 
