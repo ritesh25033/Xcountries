@@ -15,7 +15,7 @@ const Country = () => {
       setCountries(countriesData);
     } catch (error) {
       console.error('Error fetching data: ', error);
-      setError(error);
+      // setError(error);
     }
   };
 
@@ -23,9 +23,9 @@ const Country = () => {
     fetchCountries();
   },[]);
 
-  if (error) {
-    return <div>Error: {error.message}</div>;
-  }
+  // if (error) {
+  //   return <div>Error: {error.message}</div>;
+  // }
 
   return (
     <div>
