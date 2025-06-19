@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const Country = () => {
   const [countries, setCountries] = useState([]);
-  // const [error, setError] = useState(null);
 
   const fetchCountries = async () => {
     try {
